@@ -1,0 +1,415 @@
+body{
+    background: #eeeeee;
+}
+/*标题栏开始*/
+.top-box{
+    width:100%;
+    height:0.38rem;
+    background: #ffb20c;
+}
+.top-img {
+    width: 100%;
+    height: 0.23rem;
+    min-height: 1px;
+    margin: 0 ;
+    background: black;
+    opacity: 0.1;
+    /*background-color: #000000;*/
+}
+.top-box img{
+    width: 100%;
+    height:0.23rem;
+    float: left;
+}
+/*标题栏结束*/
+
+/*顶部开始*/
+#header{
+    width:100%;
+    height:2.26rem;
+    background: #ffb20c;
+    position: relative;
+}
+.container-box {
+    width: 7.02rem;
+    height: 0.33rem;
+    min-height: 1px;
+    margin: 0 auto;
+    background: #ffb20c;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.container{
+    width:7.02rem;
+    height:0.33rem;
+    /*background: red;*/
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.container p{
+    /*width: 3rem;*/
+    height: 0.33rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.34rem;
+    letter-spacing: 0.017rem;
+    color: #ffffff;
+    line-height: 0.33rem;
+}
+.container img{
+    width:0.37rem;
+    height:0.38rem;
+}
+#fanhui{
+    position: absolute;
+    left: 0;
+}
+#more{
+    position: absolute;
+    right: 0;
+}
+.contanier-content{
+    width:5rem;
+    height:1.12rem;
+    /*background: red;*/
+    margin-top: 0.2rem;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.contanier-content p {
+    width: 100%;
+    height: 0.36rem;
+    color: #ffffff;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+}
+.contanier-content img{
+    width:0.13rem;
+    height:0.22rem;
+    margin-left: 0.2rem;
+    margin-right: 0.05rem;
+}
+/*顶部结束*/
+
+/*送达时间开始*/
+.time-box{
+    width:100%;
+    height:1.36rem;
+    /*background: red;*/
+    margin-top: 0.22rem;
+}
+.time{
+    width:7.02rem;
+    height:1.36rem;
+    /*background: blue;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.time-top{
+    width:100%;
+    height:0.25rem;
+    /*background: red;*/
+    display: flex;
+    align-items: center;
+}
+.time-top img{
+    width:0.25rem;
+    height:100%;
+    margin-right: 0.05rem;
+}
+.time-top p{
+    height: 100%;
+    font-size: 0.22rem;
+    /*width:2rem;*/
+    color: #ffb20c;
+    letter-spacing: 0.011rem;
+    line-height: 0.2rem;
+}
+.time-bottom{
+    width:100%;
+    height: 0.98rem;
+    background: #fff;
+    border-radius: 0.1rem;
+}
+.time-content{
+    width:6.55rem;
+    height:0.49rem;
+    /*background: red;*/
+    margin: 0 auto;
+    border-bottom: dashed 0.01rem #b0b0b0;
+    color: #ffb20c;
+    /*opacity: 0.3;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.time-content:nth-child(2){
+    border: 0;
+}
+.time-content:nth-child(2) span:nth-child(2){
+    /*margin-left: 4rem;*/
+}
+.time-content span{
+    height:0.24rem;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+}
+.time-content span:nth-child(2){
+    position: absolute;
+    /*top:0.1rem;*/
+    right:0.37rem;
+    /*margin-left: 3.5rem;*/
+}
+.time-content img{
+    width:0.23rem;
+    height: 0.13rem;
+    color: #ffb20c;
+}
+/*送达时间结束*/
+
+/*确认订单开始*/
+.content-box{
+    width: 3.71rem;
+    height:0.75rem;
+    /*background: red;*/
+    margin:0 auto;
+    margin-top: 0.88rem;
+    margin-bottom: 0.62rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.content-top{
+    width:2.97rem;
+    height:0.4rem;
+    /*background: #fff;*/
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-top span{
+    height:0.4rem;
+    line-height: 0.32rem;
+    color: #ffb20c;
+    letter-spacing: 0.017rem;
+    font-size: 0.34rem;
+}
+.content-bottom{
+    width:3.71rem;
+    height:0.23rem;
+    /*background: blue;*/
+    display: flex;
+    justify-content: space-between;
+}
+.content-bottom span{
+    height: 0.23rem;
+    line-height: 0.23rem;
+    font-size: 0.3rem;
+    color: #ffb20c;
+    opacity: 0.6;
+    font-family:  PingFang-SC-Bold;;
+}
+/*确认订单结束*/
+
+/*订单内容开始*/
+.order-box{
+    width:100%;
+    height:6.72rem;
+    /*background: red;*/
+}
+.order{
+    width:7.02rem;
+    height:100%;
+    /*background: red;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: relative;
+}
+.order-item{
+    width:100%;
+    height: 0.88rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.order-item span{
+    font-family: PingFang-SC-Regular;
+}
+.order-img{
+    width:0.77rem;
+    height:0.77rem;
+    /*background: black;*/
+    line-height: 0.77rem;
+    margin-left: 0.31rem;
+}
+.order-img img{
+    width: 100%;
+    height:100%;
+}
+.order-content{
+    width:2.2rem;
+    height:0.6rem;
+    /*background: blue;*/
+    margin-left: 0.54rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.order-content p{
+    height:0.23rem;
+    width:100%;
+    font-size: 0.24rem;
+    line-height: 0.23rem;
+    letter-spacing: 0.012rem;
+    color: #ff7e0c;
+    font-family: SanFranciscoDisplay-Bold;
+}
+.order-content p:nth-child(1){
+    height:0.26rem;
+    font-size: 0.28rem;
+    line-height: 0.26rem;
+    letter-spacing: 0.014rem;
+    color: #000000;
+    font-family: PingFang-SC-Regular;;
+}
+.order-icon{
+    width:0.9rem;
+    height:0.3rem;
+    /*background: red;*/
+    position: absolute;
+    right:0.23rem;
+    bottom:0.23rem;
+    display: flex;
+    justify-content: space-between;
+}
+.order-icon img{
+    width:0.28rem;
+    height:100%;
+}
+.order-icon span {
+    width: 0.1rem;
+    height: 100%;
+    line-height: 0.3rem;
+    font-size: 0.187rem;
+    letter-spacing: 0.011rem;
+    color: #ffae00;
+}
+.order-item:nth-child(4){
+    justify-content: space-between;
+    margin-bottom: 0.14rem;
+}
+.order-item:nth-child(4) span{
+    font-size: 0.28rem;
+    margin-left: 0.41rem;
+    color: #000000;
+    letter-spacing: 0.014rem;
+}
+.order-item:nth-child(4) span:nth-child(2){
+    margin-right: 0.24rem;
+    color: #ff0012;
+    font-family: SanFranciscoDisplay-Bold;
+}
+.order-item:nth-child(5){
+    justify-content: space-between;
+}
+.order-item:nth-child(5) span{
+    font-size: 0.28rem;
+    margin-left: 0.41rem;
+    color: #000000;
+    letter-spacing: 0.014rem;
+}
+.order-item:nth-child(5) span:nth-child(2){
+    margin-right: 0.24rem;
+    color: #ff0012;
+    font-family: SanFranciscoDisplay-Bold;
+}
+.order-item:nth-child(5) span:nth-child(2) img{
+    width:0.43rem;
+    height:0.23rem;
+}
+.order-item:nth-child(6){
+    justify-content: space-between;
+}
+.order-item:nth-child(6) span{
+    font-size: 0.28rem;
+    margin-left: 0.41rem;
+    color: #000000;
+    letter-spacing: 0.014rem;
+}
+.order-item:nth-child(6) span:nth-child(2){
+    margin-right: 0.24rem;
+    color: #ff0012;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.18rem;
+    letter-spacing: 0rem;
+    color: #26a215;
+}
+.order-small{
+    width:6.52rem;
+    height:0.18rem;
+    position: absolute;
+    left:0.24rem;
+    bottom:2.16rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-small span {
+    height:100%;
+    line-height: 0.18rem;
+    color: #ff0012;
+    opacity: 0.6;
+    letter-spacing: 0.009rem;
+    font-size: 0.18rem;
+}
+/*订单内容结束*/
+
+/*底部去支付开始*/
+.footer-box {
+    width: 3.09rem;
+    height: 0.63rem;
+    margin: 0.5rem auto;
+    background-color: #f02664;
+    border-radius: 0.315rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-box p{
+    font-size: 0.28rem;
+    color: #ffffff;
+    line-height: 0.63rem;
+    letter-spacing: 0.1rem;
+}
+.footer-left{
+    width: 0.11rem;
+    height: 0.11rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 0.09rem;
+}
+.footer-left:nth-child(2){
+     opacity: 0.6;
+}
+.footer-right{
+    width: 0.11rem;
+    height: 0.11rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 0.09rem;
+}
+.footer-right:nth-child(1){
+    opacity: 0.6;
+}
+/*底部去支付结束*/

@@ -1,0 +1,306 @@
+html,body{
+    box-sizing: border-box;
+    width:100%;
+    height: 100%;
+}
+body{
+    width:100%;
+    height: 100%;
+    background-image: url("../img/登录/图层1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*标题栏开始*/
+.top-box{
+    width:100%;
+    height:0.32rem;
+    padding-top: 0.09rem;
+}
+.top-img {
+    width: 100%;
+    height: 0.23rem;
+    min-height: 1px;
+    margin: 0 ;
+    /*background: black;*/
+    opacity: 0.1;
+    /*background-color: #000000;*/
+}
+.top-box img{
+    width: 100%;
+    height:0.23rem;
+    float: left;
+}
+/*标题栏结束*/
+
+/*注册按钮开始*/
+.zhuce-box {
+    width: 1.59rem;
+    height: 0.52rem;
+    background: #ffb20c;
+    border-radius: 0.24rem;
+    margin-top: 0.19rem;
+    position: absolute;
+    right: 0.24rem;
+}
+.zhuce-box p {
+    width:100%;
+    height:100%;
+    line-height: 0.52rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #ffffff;
+    letter-spacing: 0.072rem;
+}
+/*注册按钮结束*/
+
+/*账号密码开始*/
+.mes-box{
+    width:5.68rem;
+    height:3.66rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    margin: 0 auto;
+    margin-top: 4.13rem;
+    box-sizing: border-box;
+    padding-top: 0.39rem;
+    z-index: 10;
+}
+.mes-top{
+    width:100%;
+    height:0.17rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-left: 1.8rem;
+    margin-bottom: 0.14rem;
+    z-index: 999;
+}
+.mes-top p {
+    width: 2rem;
+    line-height: 0.17rem;
+    height: 0.17rem;
+    font-size: 0.18rem;
+    color: #ff0000;
+    margin-left: 0.06rem;
+    z-index: 999;
+}
+.mes-top img{
+    width: 0.21rem;
+    height: 0.21rem;
+    opacity: 0.99;
+    z-index: 999;
+}
+.mes {
+    width: 4rem;
+    height: 2.59rem;
+    /*background: blueviolet;*/
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: right;
+    z-index: 10;
+}
+.mes-content {
+    width: 100%;
+    height: 0.5rem;
+    /*background: black;*/
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.mes-img {
+    width: 0.5rem;
+    height:0.5rem;
+    line-height: 0rem;
+}
+.mes-img img{
+    width:100%;
+    height:100%;
+}
+.mes-input{
+    width: 3.14rem;
+    height: 0.46rem;
+    display: flex;
+    line-height: 0.46rem;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    border-radius: 0.23rem;
+    border: solid 0.02rem #ffb20c;
+}
+.mes-dian {
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #ffb20c;
+    position: absolute;
+    left:0.15rem;
+    z-index: 1;
+}
+.mes-content input {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 0.23rem;
+    text-indent:0.32rem;
+    line-height: 0.46rem;
+    outline:none;
+}
+.mes-content input::placeholder{
+    width:2rem;
+    height:100%;
+    font-size: 0.2rem;
+    letter-spacing: 0rem;
+    color: #000000;
+    opacity: 0.6;
+    text-indent:0.32rem;
+    line-height: 0.46rem;
+}
+.mes-hint{
+    width:2.92rem;
+    height:0.17rem;
+    margin-left: 0.93rem;
+    display: flex;
+    justify-content: space-between;
+}
+.mes-hint-small{
+    width:1.2rem;
+    height:0.17rem;
+    /*background: red;*/
+    display: flex;
+    align-items: center;
+    line-height: 0.14rem;
+}
+.mes-hint-small input {
+    width: 0.14rem;
+    height: 0.14rem;
+}
+.mes-hint-small img{
+    width:0.16rem;
+    height:0.16rem;
+    opacity: 0.6;
+}
+.mes-hint-small p{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.18rem;
+    letter-spacing: 0.009rem;
+    color: #000000;
+    margin-left: 0.04rem;
+}
+.mes-left{
+    width:0.91rem;
+    height:0.17rem;
+    /*background: blue;*/
+}
+.mes-button {
+    width: 2.59rem;
+    height: 0.52rem;
+    background: #666666;
+    border-radius: 0.26rem;
+    margin: 0 auto;
+}
+.mes-button p{
+    line-height: 0.52rem;
+    text-align: center;
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+}
+.op-box {
+    width: 5.36rem;
+    height: 3.49rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    opacity: 0.6;
+    margin: 0 auto;
+    margin-top:-3.29rem;
+    z-index: 9;
+}
+.op-box2{
+    width: 4.74rem;
+    height: 3.49rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    opacity: 0.6;
+    margin: 0 auto;
+    margin-top:-3.29rem;
+    z-index: 8;
+}
+/*账号密码结束*/
+
+/*其他登录开始*/
+.other-box {
+    width: 4.37rem;
+    height: 1.58rem;
+    /*background: red;*/
+    margin: 0 auto;
+    margin-top: 1.54rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.other-top{
+    width:2.35rem;
+    height:0.26rem;
+    /*background: blue;*/
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.other-top p {
+    width: 1.5rem;
+    height: 100%;
+    text-align: center;
+    line-height: 0.26rem;
+    font-size: 0.28rem;
+    letter-spacing: 0.014rem;
+    color: #fff;
+}
+.other-left{
+     width: 0.1rem;
+     height: 0.1rem;
+     background-color: #ffb20c;
+     border-radius: 50%;
+     opacity: 0.6;
+ }
+.other-left:nth-child(2){
+    margin-left: 0.08rem;
+    margin-right:0.14rem
+}
+.other-right{
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffb20c;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+.other-right:nth-last-child(2){
+    margin-left: 0.14rem;
+    margin-right:0.08rem
+}
+.other-bottom {
+    width: 100%;
+    height: 0.77rem;
+    /*background: black;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.other-bottom a{
+    display: block;
+    width:0.77rem;
+    height:0.77rem;
+    /*background: red;*/
+    line-height: 0.77rem;
+}
+.other-bottom img{
+    width:100%;
+    height:100%;
+}
+/*其他登录结束*/

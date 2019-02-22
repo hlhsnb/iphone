@@ -1,0 +1,126 @@
+body{
+    background: #eeeeee;
+}
+/*遮罩开始*/
+.zhe-box{
+    position:fixed;
+    opacity:0.6;
+    width:100%;
+    height:100%;
+    background:#000;
+    z-index:998;
+    pointer-events: none;
+}
+/*遮罩结束*/
+
+/*支付弹出开始*/
+.tan-box{
+    width:100%;
+    height:10rem;
+    background: #fff;
+    z-index:999;
+    position:fixed;
+    left:0;
+    bottom:0;
+    box-sizing: border-box;
+}
+.tan-top {
+    width: 6rem;
+    height: 0.28rem;
+    /*background: red;*/
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.tan-top a {
+    width: 0.16rem;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.tan-img{
+    width:0.16rem;
+    height:100%;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.tan-img img{
+    width:100%;
+    height:100%;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.tan-top p{
+    height:100%;
+    line-height: 0.28rem;
+    font-size: 0.3rem;
+    color: #ffb20c;
+    letter-spacing: 0.015rem;
+}
+.tan-between{
+    width:2.63rem;
+    height:0.25rem;
+    /*background: red;*/
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tan-between span{
+    font-size: 0.26rem;
+    letter-spacing: 0.013rem;
+    color: #000000;
+}
+.tan-between span:last-child{
+    font-family: SanFranciscoDisplay-Bold;
+}
+.tan-list{
+    width:7.05rem;
+    height: 3rem;
+    margin: auto;
+    margin-top: 0.67rem;
+}
+.tan-item{
+    width:100%;
+    height:0.58rem;
+    border-bottom: solid 0.01rem rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.tan-list a{
+    display: block;
+}
+.tan-item img{
+    width:0.29rem;
+    height:0.23rem;
+    position: absolute;
+    left:2.4rem;
+}
+.tan-item p{
+    width: 1.3rem;
+    font-size: 0.24rem;
+    text-align: left;
+    letter-spacing: 0.012rem;
+    color: #000000;
+    line-height: 0.58rem;
+}
+#weixin{
+    width: 0.37rem;
+    height: 0.37rem;
+    background-color: #ffae00;
+    border-radius: 50%;
+    position: absolute;
+    right: 0.2rem;
+}
+/*支付弹出结束*/
+
